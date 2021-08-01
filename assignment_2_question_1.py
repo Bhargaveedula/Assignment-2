@@ -7,14 +7,14 @@ Original file is located at
     https://colab.research.google.com/drive/18TggBV7sDNodeiSWONt6NAgOIXmst5Xt
 """
 
-li=[1,4,5,2,12]
+li=[1,2,4,12,5]
 li.remove(1)
 print(li)
-li.pop(2)
+li.remove(2)
 print(li)
 li.remove(4)
 print(li)
-li.pop(1)
+li.remove(12)
 print(li)
 li.remove(5)
 print(li)
